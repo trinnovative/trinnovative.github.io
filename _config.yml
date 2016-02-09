@@ -5,7 +5,7 @@ permalink:           pretty
 title:             blog
 tagline:             by trinnovative team.
 url:                 http://trinnovative.github.io
-paginate:            1
+paginate:            10
 baseurl:             ""
 
 pages_list:

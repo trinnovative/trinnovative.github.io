@@ -19,7 +19,7 @@ title: Home
 	{% endif %}
 	</time>
 
-    {{ post.content }}
+    {{ post.content | truncatewords:50 | strip_html }} <a href="{{ site.baseurl }}{{ post.url }}" title="Read more">Read more</a>
   </article>
   {% endfor %}
 </div>

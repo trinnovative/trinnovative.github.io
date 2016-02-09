@@ -23,9 +23,9 @@ sass:
 
 # About/contact
 author:
-  name:              Johann Schenkl
+  name:              trinnovative GmbH
   url:               http://www.trinnovative.de
-  email:             johann.schenkl@trinnovative.de
+  email:             info@trinnovative.de
 
 # Custom vars
 version:             1.0.0

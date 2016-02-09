@@ -1,0 +1,39 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:             blog
+tagline:             by trinnovative team.
+url:                 http://trinnovative.github.io
+paginate:            1
+baseurl:             ""
+
+pages_list:
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
+  Web: 'http://www.trinnovative.de'
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Johann Schenkl
+  url:               http://www.trinnovative.de
+  email:             johann.schenkl@trinnovative.de
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/trinnovative/trinnovative.github.io
+
+gems:
+  - jekyll-sitemap

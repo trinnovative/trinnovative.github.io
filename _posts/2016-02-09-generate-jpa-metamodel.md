@@ -11,7 +11,7 @@ The *JPA 2 Metamodel* provides a way to create JPA Criteria Queries in a type-sa
 -----
 
 ### Preliminary
-Suppose we have modeled simple domain entity `Person`:
+Suppose we have modeled a simple domain entity `Person`:
 
 {% highlight java %}
 @Entity
@@ -101,7 +101,7 @@ compileJava.options.compilerArgs += ["-proc:none"]
 
 The plugin already provides an integration in the Gradle build lifecycle. The generation happens before the compileJava task. Moreover, the generated files are deleted when executing the clean task.
 
-Please note, that I've switched Hibernate version 5.0.7.Final. Moreover, I've added a separated sourceSet for the generated sources, so that they're available on the classpath.
+Please note, that we've switched to Hibernate version 5.0.7.Final. Moreover, we've added a separated sourceSet for the generated sources, so that they're available on the classpath.
 
 
 ### Usage with Spring Data

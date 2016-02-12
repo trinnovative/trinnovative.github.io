@@ -2,11 +2,17 @@
 permalink:           pretty
 
 # Setup
-title:             blog
-tagline:             by trinnovative team.
-url:                 http://trinnovative.github.io
-paginate:            10
-baseurl:             ""
+title:             trinnovative blog
+description:
+url:               http://blog.trinnovative.de
+paginate:          10
+baseurl:           ""
+logo:              public/logo_flat.png
+social:
+  type: organization
+  name: trinnovative GmbH
+  links:
+
 
 pages_list:
   About: '/about'
@@ -34,3 +40,4 @@ github:
 
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag

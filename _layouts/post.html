@@ -39,3 +39,7 @@ layout: default
         {% endfor %}
     </ul>
 </aside>
+
+{% if page.comments %}
+    {% include disqus.html %}
+{% endif %}

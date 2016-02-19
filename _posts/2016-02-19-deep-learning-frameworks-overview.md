@@ -3,7 +3,7 @@ layout: post
 title: Open Source Deep Learning Libraries
 author: jschenkl
 category: Data Science
-tags: [Deep Learning, Data Science, Machine Learning, Neural Networks, Open Source]
+tags: [Deep Learning, Data Science, Machine Learning, Neural Network, Open Source]
 comments: true
 ---
 
@@ -15,7 +15,7 @@ Besides that public media attendance, there's another recent trend in deep learn
 
 ### Framework Overview
 
-The following (alphabetical) list provides an overview over some of the most common used frameworks available for deep learning. Most of them support calculations on CPU via CUDA or similar. Several of them are not limited to a specific programming language, but provided APIs or wrappers for several languages. 
+The following (alphabetical) list provides an overview over some of the most common used frameworks available for deep learning. Most of them support calculations on CPU via CUDA or similar. Several of them are not limited to a specific programming language, but provide APIs or wrappers for several languages. 
 
 
 #### [Caffe](http://caffe.berkeleyvision.org/)
@@ -51,7 +51,7 @@ Tensor Flow is a machine library that was recently [open sourced by Google](http
 
 #### [Theano](http://www.deeplearning.net/software/theano/)
 
-Theano is a python library focused on optimization and evaluation of mathematical expressions and targets on working efficiently with multidimensional arrays. It's a base for higher abstraction frameworks like [Lasagne](https://github.com/Lasagne/Lasagne) or [Keras](http://keras.io/). There are quite a few tutorials available showing how Theano supports different network types.
+Theano is a python library focused on optimization and evaluation of mathematical expressions and targets on working efficiently with multidimensional arrays. It's a base for higher abstraction frameworks like [Lasagne](https://github.com/Lasagne/Lasagne) or [Keras](http://keras.io/). There are quite a few [tutorials](http://deeplearning.net/tutorial/) available showing how Theano supports different network types.
 
 - Languages: Python
 - License: [https://github.com/Theano/Theano/blob/master/doc/LICENSE.txt](https://github.com/Theano/Theano/blob/master/doc/LICENSE.txt)

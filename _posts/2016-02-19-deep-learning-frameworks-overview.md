@@ -15,7 +15,7 @@ Besides that public media attendance, there's another recent trend in deep learn
 
 ### Framework Overview
 
-The following (alphabetical) list provides an overview over some of the most common used frameworks available for deep learning. Most of them support calculations on CPU via CUDA or similar. Several of them are not limited to a specific programming language, but provide APIs or wrappers for several languages. 
+The following (alphabetical) list provides an overview over some of the most commonly used frameworks available for deep learning. Most of them support calculations on CPU via CUDA or similar technologies. Several of them are not limited to a specific programming language, but provide APIs or wrappers for several languages. 
 
 
 #### [Caffe](http://caffe.berkeleyvision.org/)
@@ -43,7 +43,7 @@ H20 is a Java machine learning platform focused on big data and real-time analys
 
 #### [Tensor Flow ](https://www.tensorflow.org/)
 
-Tensor Flow is a machine library that was recently [open sourced by Google](http://googleresearch.blogspot.ca/2015/11/tensorflow-googles-latest-machine_9.html). It supports distribution on multiple CPUs and GPUs. Numerical computations are represented using so-called "data flow graphs". Therein, nodes represent mathematical operations while edges represent multidimensional data arrays (tensors) that are exchanged between the nodes.
+Tensor Flow is a machine learning library that was recently [open sourced by Google](http://googleresearch.blogspot.ca/2015/11/tensorflow-googles-latest-machine_9.html). It supports distribution on multiple CPUs and GPUs. Numerical computations are represented using so-called "data flow graphs". Therein, nodes represent mathematical operations while edges represent multidimensional data arrays (tensors) that are exchanged between the nodes.
 
 - Languages: Python, C/C++ 
 - License: [Apache 2](https://github.com/tensorflow/tensorflow/blob/master/LICENSE)

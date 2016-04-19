@@ -41,3 +41,5 @@ github:
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+
+highlighter: rouge

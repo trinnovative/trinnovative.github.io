@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body>
+<body class="eupopup eupopup-top">
 
 <div class="container content">
     <header class="masthead">
@@ -29,5 +29,9 @@
     </footer>
 </div>
 
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website.","dismiss":"Got it!","learnMore":"More info","link":"http://www.trinnovative.de/#disclaimer","theme":"light-top", "target":"blank"};
+</script>
+<script type="text/javascript" src="{{ site.baseurl }}/public/lib/js/cookieconsent.min.js"></script>
 </body>
 </html>

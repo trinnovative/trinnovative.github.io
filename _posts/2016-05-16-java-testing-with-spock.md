@@ -13,7 +13,7 @@ Spock was created by Peter Niederwieser, a software engineer at Gradleware. Spoc
 -----
 
 # Introduction
-
+  
 <figure style="float:right;">
    <img src='/public/img/leonard_nimoy_spock_1967.jpg' alt='Leonard Nimoy as Mr. Spock'/>
    <figcaption>Mr. Spock (source <a alt="Wikipedia" href="https://commons.wikimedia.org/wiki/File:Leonard_Nimoy_Spock_1967.jpg">Wikipedia</a>)</figcaption>

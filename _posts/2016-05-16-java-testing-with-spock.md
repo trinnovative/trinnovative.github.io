@@ -12,17 +12,17 @@ Spock was created by Peter Niederwieser, a software engineer at Gradleware. Spoc
 
 -----
 
-#Introduction
+# Introduction
 
 <figure style="float:right;">
    <img src='/public/img/leonard_nimoy_spock_1967.jpg' alt='Leonard Nimoy as Mr. Spock'/>
    <figcaption>Mr. Spock (source <a alt="Wikipedia" href="https://commons.wikimedia.org/wiki/File:Leonard_Nimoy_Spock_1967.jpg">Wikipedia</a>)</figcaption>
 </figure>
 
-##Why Spock?
+## Why Spock?
 Spock provides an interesting alternative to testing frameworks like JUnit or TestNG. In contrast to those tools, it uses the Groovy programming language. Groovy is a dynamic language that supports static-typing and static compilation. The main benefit of using Groovy is that it's more concise and expressive than plain Java.
 
-##Pros:
+## Pros:
 Some of the benefits of Spock are:
 
 * Concise and expressive language (Groovy)
@@ -30,10 +30,10 @@ Some of the benefits of Spock are:
 * Mocking is easy
 * Extensible
 
-##Cons:
+## Cons:
 The benefits of using Spock don't come without a price. It requires at least partially learning a new language: Groovy.
 
-#Getting Started
+# Getting Started
 Lets get started with a simple (maybe a bit contrived) example. Suppose we want to develop a simple calculator that supports arithmetic operations.
 
 ## A Simple Example

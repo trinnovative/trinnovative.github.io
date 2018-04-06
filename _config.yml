@@ -38,8 +38,10 @@ version:             1.0.0
 github:
   repo:              https://github.com/trinnovative/trinnovative.github.io
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
+    
 
 highlighter: rouge
